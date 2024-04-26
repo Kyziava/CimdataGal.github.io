@@ -43,7 +43,6 @@
     display:block;
     align-self: center; 
 }
-
 #desktop-navi {
     display: flex;
     justify-content: center;
@@ -52,12 +51,8 @@
 
 /* media Regel für Smartphone */
 @media (max-width: 64rem){
-
-    #desktop-navi {
-        display:none;
-    }
-
-    .top-navi nav {        
+    .top-navi nav {
+        
         z-index: 2;
         display: none;
     }
@@ -93,7 +88,7 @@
 }
 
 
-@media (min-width: 64rem) {
+@media (min-width: 30rem) {
    
 
     nav.smartphone-navi{
